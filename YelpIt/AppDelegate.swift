@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        // Sets shadow (line below the bar) to a blank image
+        //UINavigationBar.appearance().shadowImage = UIImage()
+        // Sets the translucent background color
+       // UINavigationBar.appearance().backgroundColor = 
+        UINavigationBar.appearance().barTintColor = UIColor(red: 179, green: 34/255, blue: 24/255, alpha: 1)
+        
         return true
     }
 
